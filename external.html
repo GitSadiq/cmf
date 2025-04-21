@@ -7,7 +7,7 @@
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
 		outline: 1px solid #2574A9;
 	}
-	@font-face {
+    @font-face {
       font-family: 'Museo Sans';
       src: url('/sfsites/c/resource/Museo_Sans_700') format('openType');
         font-weight: 700;
@@ -68,11 +68,11 @@
         padding-top: 0px !important;
         padding-bottom: 0px !important;
 	}
-    .embeddedServiceHelpButton.minimizedContainer:hover,
-    .embeddedServiceHelpButton.minimizedContainer:focus {
+    .embeddedServiceSidebarMinimizedDefaultUI.minimizedContainer:hover,
+    .embeddedServiceSidebarMinimizedDefaultUI.minimizedContainer:focus {
         background-color: #FF0F17 !important;
     }
-    .embeddedServiceHelpButton .content {
+    .embeddedServiceSidebarMinimizedDefaultUI .content {
         position: absolute;
         top: -60px;
         right: 22px;
@@ -80,20 +80,21 @@
         border-radius: 3px;
         box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
     }
-    .embeddedServiceHelpButton .message {
+    .embeddedServiceSidebarMinimizedDefaultUI .message {
         color: #2a3541;
         font-family: 'Museo Sans';
         font-weight: 600;
         width: max-content !important;
     }
-    .embeddedServiceHelpButton .helpButton{
+    .embeddedServiceSidebarMinimizedDefaultUI,
+	.forceCommunityEmbeddedServiceHelpButton .flatButton{
         font-family: "Arial", sans-serif;
         width: 50px !important;
         height: 50px !important;
         border-radius: 50% !important;
         padding: 0px 15px !important;
 	}
-    .embeddedServiceHelpButton {
+    .embeddedServiceSidebarMinimizedDefaultUI {
         min-height: unset !important;
         min-width: unset !important;
         border: 0px;
@@ -102,7 +103,7 @@
         box-shadow: none !important;
         background-color: #FF0F17 !important;
     }
-    .embeddedServiceHelpButton .helpButton {
+    .forceCommunityEmbeddedServiceHelpButton .flatButton {
         background-color: #FF0F17 !important; 
     }
 	.closeButton .slds-icon-utility-close.slds-icon_container .slds-icon.slds-icon-text-default.slds-icon_small,
